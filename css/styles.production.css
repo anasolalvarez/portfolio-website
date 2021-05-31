@@ -578,10 +578,15 @@ ul .navigation-list__item--active {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    margin-right: 10px;
+    margin-right: 50px;
+
   }
 
   button {
     font-size: 15px;
   }
-}
+  .happy-cloud {
+    justify-content: center;
+    width: 30%;
+  }
+

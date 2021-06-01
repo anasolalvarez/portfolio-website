@@ -249,6 +249,7 @@ ul .navigation-list__item--active {
 .grid__item {
   display: inline-block;
   width: 33%;
+  padding: 15px;
 }
 
 /* end grid fallback */

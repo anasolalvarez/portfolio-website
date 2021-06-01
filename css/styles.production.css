@@ -178,7 +178,7 @@ ul .navigation-list__item--active {
 .standard-label {
   display: block;
   justify-content: space-around;
-  flex-direction : column;
+  flex-direction: column;
   align-content: center;
 }
 

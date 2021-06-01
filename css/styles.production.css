@@ -122,8 +122,11 @@ ul .navigation-list__item--active {
   text-decoration: none;
 }
 
+.logo{
+  width: 15%;
+}
+
 .page-header__item {
-  /* logo */
   text-align: left;
   width: 10%;
   margin: 10px;
@@ -471,12 +474,13 @@ label {
   }
 
   .logo {
+    display: flex;
+    justify-content: flex-start;
     width: 50%;
-    height: 200px;
     overflow: hidden;
+    padding-top: 10px;
+    padding-bottom: 15px;
   }
-
-  .logo
 
   .navigation-list {
     display: -webkit-box;

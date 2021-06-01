@@ -261,7 +261,6 @@ label {
   margin-left: 20px;
   margin-right: 20px;
 }
-
 /* start grid fallback */
 .grid__item {
   display: inline-block;
@@ -437,6 +436,8 @@ label {
   margin-right: 200px;
   margin-top: 40px;
   width: 75%;
+  padding-top: 20px;
+  }
 }
 
 @media all and (max-width: 500px) {

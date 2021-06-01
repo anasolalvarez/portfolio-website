@@ -76,7 +76,7 @@ label {
   color: #5c5c5c;
 }
 
-button {
+.button {
   /* overwrites browser defaults and resets the border */
   border: none;
   display: inline-block;
@@ -95,17 +95,12 @@ button {
   transition-duration: 0.2s;
 }
 
-button:hover,
-button:focus,
+.button:hover,
+.button:focus,
 .button:hover,
 .button:focus {
   cursor: pointer;
   opacity: 0.4;
-}
-
-.button__secondary {
-  background-color: #c1ffc1;
-  color: black;
 }
 
 ul .navigation-list__item--active {
@@ -584,7 +579,7 @@ ul .navigation-list__item--active {
 
   }
 
-  button {
+  .button {
     font-size: 15px;
   }
   .happy-cloud {

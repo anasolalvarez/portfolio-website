@@ -127,6 +127,13 @@ ul .navigation-list__item--active {
   padding-left: 20px;
 }
 
+.send-message {
+  display: inline;
+  justify-content:center;
+  padding: 5px;
+  margin: 10px;
+}
+
 .page-header__item {
   text-align: left;
   width: 10%;

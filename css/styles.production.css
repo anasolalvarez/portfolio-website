@@ -524,8 +524,10 @@ ul .navigation-list__item--active {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+    flex-shrink: 1;
     margin: 0 auto;
     margin-bottom: 20px;
+
   }
 
   .programming-hobbies {
@@ -589,4 +591,3 @@ ul .navigation-list__item--active {
     justify-content: center;
     width: 30%;
   }
-

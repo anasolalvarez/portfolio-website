@@ -117,7 +117,9 @@ ul .navigation-list__item--active {
   -ms-flex-pack: end;
   justify-content: flex-end;
 }
-
+.navigation-list__item {
+  text-decoration: none;
+}
 .page-header__item {
   /* logo */
   text-align: left;
@@ -130,6 +132,7 @@ ul .navigation-list__item--active {
 
 .navigation-list {
   color: #bf3eff;
+  text-decoration: none;
 }
 
 .profile {
@@ -484,6 +487,7 @@ ul .navigation-list__item--active {
     -ms-flex-direction: column;
     flex-direction: column;
     margin-left: 5px;
+    padding: 20px;
   }
 
   .profile h1 p {
@@ -510,6 +514,7 @@ ul .navigation-list__item--active {
     justify-content: center;
     height: 30%;
     margin: 0 auto;
+    padding-top: 25px
   }
 
   .page-header__item {

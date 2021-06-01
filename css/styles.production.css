@@ -124,6 +124,7 @@ ul .navigation-list__item--active {
 
 .logo{
   width: 15%;
+  padding-left: 20px;
 }
 
 .page-header__item {
@@ -203,7 +204,7 @@ label {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
+  -ms-flex-direction: row;
   padding: 10px;
   margin: 30px;
 }
@@ -232,9 +233,9 @@ label {
   display: -ms-flexbox;
   display: flex;
   width: 90%;
-  padding: 20px;
+  padding-top:15px;
   font-weight: normal;
-  margin: 30px;
+  margin: 15px;
 }
 
 .page-header__item:last-child {
@@ -301,8 +302,10 @@ label {
 }
 
 .contact {
+  display: flex;
+  justify-content: center;
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 @-webkit-keyframes color-change {

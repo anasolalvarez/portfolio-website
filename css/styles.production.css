@@ -187,7 +187,6 @@ label {
 .form-contact {
   display: block;
   justify-content: center;
-  align-items: column;
   -webkit-box-pack: start;
   -ms-flex-pack: start;
   justify-content: flex-start;
@@ -630,3 +629,4 @@ label {
     justify-content: center;
     width: 30%;
   }
+}

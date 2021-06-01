@@ -117,9 +117,11 @@ ul .navigation-list__item--active {
   -ms-flex-pack: end;
   justify-content: flex-end;
 }
+
 .navigation-list__item {
   text-decoration: none;
 }
+
 .page-header__item {
   /* logo */
   text-align: left;
@@ -165,6 +167,11 @@ ul .navigation-list__item--active {
   padding: 10px;
   margin: 30px;
 }
+
+label {
+  padding: 10px;
+}
+
 
 .form-contact {
   display: block;
@@ -463,6 +470,14 @@ ul .navigation-list__item--active {
     height: 60%;
   }
 
+  .logo {
+    width: 50%;
+    height: 200px;
+    overflow: hidden;
+  }
+
+  .logo
+
   .navigation-list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -538,7 +553,6 @@ ul .navigation-list__item--active {
     flex-shrink: 1;
     margin: 0 auto;
     margin-bottom: 20px;
-
   }
 
   .programming-hobbies {
@@ -592,12 +606,12 @@ ul .navigation-list__item--active {
     -ms-flex-pack: center;
     justify-content: center;
     margin-right: 50px;
-
   }
 
   .button {
     font-size: 15px;
   }
+
   .happy-cloud {
     justify-content: center;
     width: 30%;
